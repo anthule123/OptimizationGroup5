@@ -11,5 +11,3 @@ def getDivisorList(n):
     if nSqrt**2 == n:
         smallDivisorList.append(nSqrt)
     return smallDivisorList + bigDivisorList
-
-print(getDivisorList(2*3*5*7*11*13*17*19*23*29-1))
