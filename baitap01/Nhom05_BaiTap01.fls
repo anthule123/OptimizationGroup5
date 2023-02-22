@@ -1,6 +1,6 @@
-PWD c:\Users\ThinkPad\Desktop\toi_uu\chap1\baitap01
+PWD d:\do it 2\OptimizationGroup5\baitap01
 INPUT C:\Users\ThinkPad\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ThinkPad\Desktop\toi_uu\chap1\baitap01\Nhom05_BaiTap01.tex
+INPUT d:\do it 2\OptimizationGroup5\baitap01\Nhom05_BaiTap01.tex
 OUTPUT Nhom05_BaiTap01.log
 INPUT D:\o D\App\MikTex\tex\latex\base\article.cls
 INPUT D:\o D\App\MikTex\tex\latex\base\article.cls
@@ -244,3 +244,57 @@ INPUT cau1.tex
 INPUT .\cau1.tex
 INPUT .\cau1.tex
 INPUT cau1.tex
+INPUT .\cau2.tex
+INPUT cau2.tex
+INPUT .\cau2.tex
+INPUT cau2.tex
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmr6.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\o D\App\MikTex\tex\latex\amsfonts\umsa.fd
+INPUT D:\o D\App\MikTex\tex\latex\amsfonts\umsa.fd
+INPUT D:\o D\App\MikTex\tex\latex\amsfonts\umsa.fd
+INPUT D:\o D\App\MikTex\tex\latex\amsfonts\umsa.fd
+INPUT D:\o D\App\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\o D\App\MikTex\tex\latex\amsfonts\umsb.fd
+INPUT D:\o D\App\MikTex\tex\latex\amsfonts\umsb.fd
+INPUT D:\o D\App\MikTex\tex\latex\amsfonts\umsb.fd
+INPUT D:\o D\App\MikTex\tex\latex\amsfonts\umsb.fd
+INPUT D:\o D\App\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\vntex\vnr\vnbx12.tfm
+INPUT .\cau3.tex
+INPUT .\cau3.tex
+INPUT .\cau3.tex
+INPUT cau3.tex
+INPUT .\cau3.tex
+INPUT .\cau3.tex
+INPUT cau3.tex
+OUTPUT Nhom05_BaiTap01.pdf
+INPUT C:\Users\ThinkPad\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT Nhom05_BaiTap01.aux
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\vntex\vnr\vnbx12.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\vntex\vnr\vnbx12.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\vntex\vnr\vnr12.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\vntex\vnr\vnr12.pfb
