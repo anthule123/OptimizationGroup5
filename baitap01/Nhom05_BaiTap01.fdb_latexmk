@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1677078620 "d:/do it 2/OptimizationGroup5/baitap01/Nhom05_BaiTap01.tex" "Nhom05_BaiTap01.pdf" "Nhom05_BaiTap01" 1677078622 0
+["pdflatex"] 1677079877 "d:/do it 2/OptimizationGroup5/baitap01/Nhom05_BaiTap01.tex" "Nhom05_BaiTap01.pdf" "Nhom05_BaiTap01" 1677079880 0
   "C:/Users/ThinkPad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1677071447 88371 b965f57369ed322039596060d18f4416 ""
   "C:/Users/ThinkPad/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1676722147 23161727 01a06a4d45e48a258738e6d6a53f2649 ""
   "D:/o D/App/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -25,6 +25,7 @@
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "D:/o D/App/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnbx12.pfb" 1644004041 41089 cd085a6112214f1ec9535fe0d1ee127f ""
   "D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnr12.pfb" 1644004041 40319 02110ade360715fbba33c66db50ef607 ""
   "D:/o D/App/MikTex/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
@@ -53,10 +54,10 @@
   "D:/o D/App/MikTex/tex/latex/vntex/t5enc.dfu" 1368738347 13949 387dd4fa58aea5f873839c93430fffed ""
   "D:/o D/App/MikTex/tex/latex/vntex/vietnam.sty" 1368738347 2477 91784aa2c9213f74609391e3cae65a13 ""
   "D:/o D/App/MikTex/tex/latex/vntex/vncaps.tex" 1368738347 3273 a55ebdb07413d2fea580f210e3c0b252 ""
-  "Nhom05_BaiTap01.aux" 1677078622 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Nhom05_BaiTap01.aux" 1677079879 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
   "Nhom05_BaiTap01.tex" 1677078618 577 15d0bf13db1258a96c9cae35b56c208c ""
-  "cau1.tex" 1677078607 15 fe3a4449d52907a85d0b81d42620d464 ""
-  "cau2.tex" 1677078100 2825 b6d2262f4aa41aa7909ed2ac5506204a ""
+  "cau1.tex" 1677079876 3602 e9db9ff64bb956f4db6edbef658a2df1 ""
+  "cau2.tex" 1677079859 2834 8829c8b4877de1d87bc68916d897a419 ""
   "cau3.tex" 1677078076 0 d41d8cd98f00b204e9800998ecf8427e ""
   "d:/do it 2/OptimizationGroup5/baitap01/Nhom05_BaiTap01.tex" 1677078618 577 15d0bf13db1258a96c9cae35b56c208c ""
   (generated)
