@@ -1,5 +1,35 @@
-Bài tập 3: 
-\\
+\textbf{Bài tập 3:} 
+%viết 2 dòng trên dưới dạng table 7 cột
+\begin{tabular}
+{|c|c|c|c|c|c|c|}
+\hline
+GroupId & X & A & B & C & D & E \\
+\hline
+05 & 4 & -1 & 1 & 1 & 2 & -1 \\
+\hline
+\end{tabular}
+
+Phát biểu bài toán:
+\begin{center}
+\begin{tabular}{c c c c c}
+\textbf{MIN} & $-x_1$ & $- x_2$ &  &  \\
+\text{s.t.} &&&&\\
+% $2x_1 - x_2 \leq 2$
+&$2x_1$ & $- x_2$ & &$ \leq 2$\\
+%−x1 + 2x2 − 3x3 = 1
+&$- x_1$ & $+2 x_2$ & $- 3 x_3$ & $= 1$\\
+%$2x_1 - x_2 + x_3 \geq 2$
+&$2x_1$ & $- x_2$ & $+ x_3$ & $\geq 2$\\
+
+%x_1<=-1
+&$x_1$ & & & $\leq -1$\\
+%-2<=x_2<=1
+&$ -2\leq$ &$x_2$ &  $\leq 1$ &\\ 
+
+    
+\end{tabular}
+\end{center}
+
 * Trước hết, ta chuyển hàm mục tiêu thành:
 \begin{center}
     $\text{MAX  } x_1 + x_2 $
@@ -26,8 +56,9 @@ Khi đó
 \begin{center}
     $\text{MAX  } -s_1 + s_2 -3$
 \end{center}
-\\
-+ Các điều kiện (1), (2) và điều kiện $-x_1 + 2x_2 - 3x_3 = 1$ lần lượt trở thành:
+
++ Các điều kiện (1), (2) và điều kiện
+ $-x_1 + 2x_2 - 3x_3 = 1$ lần lượt trở thành:\\
 \begin{align*}
     -2s_1 - s_2 + x_4 = 2 \\
     s_1 + 2s_2 - 3x_3 = 4 \\

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1677079970 "d:/do it 2/OptimizationGroup5/baitap01/Nhom05_BaiTap01.tex" "Nhom05_BaiTap01.pdf" "Nhom05_BaiTap01" 1677079972 0
+["pdflatex"] 1677081974 "d:/do it 2/OptimizationGroup5/baitap01/Nhom05_BaiTap01.tex" "Nhom05_BaiTap01.pdf" "Nhom05_BaiTap01" 1677081977 0
   "C:/Users/ThinkPad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1677071447 88371 b965f57369ed322039596060d18f4416 ""
   "C:/Users/ThinkPad/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1676722147 23161727 01a06a4d45e48a258738e6d6a53f2649 ""
   "D:/o D/App/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -20,11 +20,14 @@
   "D:/o D/App/MikTex/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "D:/o D/App/MikTex/fonts/tfm/vntex/vnr/vnbx12.tfm" 1644004041 4020 c48f3c7e11edde839ff6260300faa1bb ""
   "D:/o D/App/MikTex/fonts/tfm/vntex/vnr/vnr12.tfm" 1644004041 3984 be7b630197255361b12d153ce5e1bc5b ""
+  "D:/o D/App/MikTex/fonts/tfm/vntex/vnr/vnr6.tfm" 1644004041 3988 1f6bc3097731d87cba5c55c000fe39f4 ""
+  "D:/o D/App/MikTex/fonts/tfm/vntex/vnr/vnr8.tfm" 1644004041 3984 233206e6f80a2fd00ed2ee2bf783da65 ""
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "D:/o D/App/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnbx12.pfb" 1644004041 41089 cd085a6112214f1ec9535fe0d1ee127f ""
   "D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnr12.pfb" 1644004041 40319 02110ade360715fbba33c66db50ef607 ""
@@ -54,11 +57,11 @@
   "D:/o D/App/MikTex/tex/latex/vntex/t5enc.dfu" 1368738347 13949 387dd4fa58aea5f873839c93430fffed ""
   "D:/o D/App/MikTex/tex/latex/vntex/vietnam.sty" 1368738347 2477 91784aa2c9213f74609391e3cae65a13 ""
   "D:/o D/App/MikTex/tex/latex/vntex/vncaps.tex" 1368738347 3273 a55ebdb07413d2fea580f210e3c0b252 ""
-  "Nhom05_BaiTap01.aux" 1677079972 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "Nhom05_BaiTap01.aux" 1677081976 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
   "Nhom05_BaiTap01.tex" 1677078618 577 15d0bf13db1258a96c9cae35b56c208c ""
-  "cau1.tex" 1677079876 3602 e9db9ff64bb956f4db6edbef658a2df1 ""
+  "cau1.tex" 1677081262 3606 54748714f8b71441ed83d858725824da ""
   "cau2.tex" 1677079969 2839 0e93e9e0b8fe888d2849742d60b3fa05 ""
-  "cau3.tex" 1677078076 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "cau3.tex" 1677081972 2444 395ae7ab3233890dc671765a687bad88 ""
   "d:/do it 2/OptimizationGroup5/baitap01/Nhom05_BaiTap01.tex" 1677078618 577 15d0bf13db1258a96c9cae35b56c208c ""
   (generated)
   "Nhom05_BaiTap01.aux"

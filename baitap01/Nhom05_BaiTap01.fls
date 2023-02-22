@@ -283,6 +283,8 @@ INPUT cau3.tex
 INPUT .\cau3.tex
 INPUT .\cau3.tex
 INPUT cau3.tex
+INPUT D:\o D\App\MikTex\fonts\tfm\vntex\vnr\vnr8.tfm
+INPUT D:\o D\App\MikTex\fonts\tfm\vntex\vnr\vnr6.tfm
 INPUT Nhom05_BaiTap01.aux
 INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmmi12.pfb
@@ -294,6 +296,8 @@ INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT D:\o D\App\MikTex\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT D:\o D\App\MikTex\fonts\type1\vntex\vnr\vnbx12.pfb
