@@ -1,0 +1,106 @@
+
+Bài tập 2: Hãy xây dựng mô hình quy hoạch tuyến tính của câu a bài X trang 169-170 trong tài liệu sau 
+\\
+Lưu ý, chỉ cần xây dựng mô hình, chưa cần giải đưa ra kết quả.
+\\
+Phân tich bài toán:
+\\
+Bước 1: Xác định các biến.
+\\
+$x_1$ - khoản đầu tư vào cổ phiếu EAL;
+\\
+$x_2$ - khoản đầu tư vào cổ phiếu BRU;
+\\
+$x_3$ - khoản đầu tư vào cổ phiếu TAT;
+\\
+$x_4$ - khoản đầu tư vào trái phiếu ngắn hạn;
+\\
+$x_5$ - khoản đầu tư vào trái phiếu dài hạn;
+\\
+$x_6$ - khoản đầu tư vào niên kim hoãn thuế.
+\\
+(đơn vị là dollar)
+\\
+Bước 2: Xác định hàm mục tiêu
+\\
+Hàm mục tiêu ở đây chính là lợi nhuận hàng năm thu về, hàm này cần đạt giá trị lớn nhất:
+\begin{center}
+    $F(x_1, x_2, x_3, x_4, x_5, x_6) = 0.15 x_1 + 0.12 x_2 + 0.09 x_3 + 0.11 x_4 + 0.08 x_5 + 0.06 x_6$
+\end{center}
+Bước 3: Xác định các điều kiện hiện và điều kiện ẩn.
+\\
+- Vì toàn bộ \text{\$50000} được đầu tư nên:
+\begin{center}
+    $x_1 + x_2 + x_3 + x_4 + x_5 + x_6 = 50000$
+\end{center}
+- Vì ít nhất \$10000 được đầu tư vào niên kim hoãn thuế nên:
+\begin{center}
+    $x_6 \geq 10000$
+\end{center}
+- Vì ít nhất 25\% vốn đầu tư vào cổ phiếu tập trung vào cổ phiếu TAT nên:
+\begin{center}
+    $x_3 \geq \frac{1}{4} (x_1 + x_2 + x_3),$
+\end{center}
+tức là:
+\begin{center}
+    $x_1 + x_2 - 3 x_3 \geq 0$
+\end{center}
+- Vì số vốn đầu tư vào trái phiếu ít nhất phải bằng số vốn đầu tư vào cổ phiếu nên:
+\begin{center}
+    $x_4 + x_5 - x_1 - x_2 - x_3 \geq 0$
+\end{center}
+- Vì số vốn đầu tư vào các nguồn đầu tư sinh lời dưới 10\% không quá \$12500 nên:
+\begin{center}
+    $x_3 + x_5 + x_6 \leq 12500$
+\end{center}
+- Ràng buộc ẩn: $x_1, x_2, x_3, x_4, x_5 \geq 0.$
+\\
+
+Kết quả mô hình thu được:
+%tạo hệ phương trình thẳng hàng đẹp, 8 cột
+%đặt độ rộng cho table
+%các chữ đưa hêt về bên trái
+\begin{center}
+\begin{tabular} {c c c c c c cc}
+\textbf{MAX} & $ 0.15 x_1$
+       &$ + 0.12 x_2 $
+       & $ + 0.09 x_3 $
+       & $ + 0.11 x_4 $
+       & $ + 0.08 x_5 $
+       & $ + 0.06 x_6 $&\\
+%s.t.
+\text{s.t.}&&&&&&&\\
+%dòng 1
+&$x_1$
+&$ + x_2$
+& $+ x_3$
+& $+ x_4$
+& $+ x_5$
+& $+ x_6$
+& $= 50000$\\
+%dòng 2
+&&&&&&$x_6$
+&$\geq10000$\\
+%dòng 3
+&$x_1$
+&$ + x_2$
+& $- 3 x_3$&&&
+&$\geq 0$\\
+
+%dòng 4
+& $- x_1$
+& $- x_2$
+& $- x_3$
+&$+x_4$
+&$ + x_5$&
+&$\geq 0$\\
+%dòng 5
+&&&$x_3$
+&&$ + x_5$
+& $+ x_6$
+& $\leq 12500$\\
+%dòng 5
+&&&&&&$x_i$
+&$\geq 0 $\text{ với } i = 1,$\dots$,6\\
+\end{tabular}
+\end{center}
