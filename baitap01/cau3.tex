@@ -1,0 +1,61 @@
+Bài tập 3: 
+\\
+* Trước hết, ta chuyển hàm mục tiêu thành:
+\begin{center}
+    $\text{MAX  } x_1 + x_2 $
+\end{center}
+* Tiếp theo, ta sẽ chuyển các điều kiện bất đẳng thức thành đẳng thức.
+\\
+- Điều kiện $2x_1 - x_2 \leq 2$ chuyển thành:
+\begin{align}
+    2x_1 - x_2 + x_4 = 2
+\end{align}
+và điều kiện $2x_1 - x_2 + x_3 \geq 2$ chuyển thành:
+\begin{align}
+    2x_1 - x_2 + x_3 -x_5 = 2
+\end{align}
+với các biến bù $x_4, x_5 \geq 0$.
+\\
+- Ta đổi biến $s_1 = -1 - x_1$, trong đó $s_1 \geq 0$.
+\\
+Điều kiện $-2 \leq x_2 \leq 1$ được tách thành các điều kiện $x_2 \geq -2$ và $x_2 \leq 1$. Đổi biến $s_2 = x_2 + 2$ và đặt biến bù $s_3 = 3 - s_2$, trong đó $s_2, s_3 \geq 0$.
+\\
+Khi đó
+\\
++ Hàm mục tiêu trở thành:
+\begin{center}
+    $\text{MAX  } -s_1 + s_2 -3$
+\end{center}
+\\
++ Các điều kiện (1), (2) và điều kiện $-x_1 + 2x_2 - 3x_3 = 1$ lần lượt trở thành:
+\begin{align*}
+    -2s_1 - s_2 + x_4 = 2 \\
+    s_1 + 2s_2 - 3x_3 = 4 \\
+    -2s_1 - s_2 + x_3 -x_5 = 2 
+\end{align*}
+\\
++ Ta bổ sung thêm điều kiện $s_2 + s_3 = 3$.
+\\
+* Biến tự do $x_3$ được thay thế bằng:
+\begin{center}
+    $x_3 = x_{3}^{+} - x_{3}^{-},$
+\end{center}
+với $x_{3}^{+}, x_{3}^{-} \geq 0$
+\\
+*Như vậy, dạng chính tắc của mô hình là:
+\begin{align*}
+    \text{MAX  } -s_1 + s_2 - 3 &&
+    \\
+    \text{s.t.} &&
+    \\
+    1) -2s_1 - s_2 + x_4 = 2 &&
+    \\
+    2) s_1 + 2s_2 - 3x_{3}^{+} + 3x_{3}^{-} = 4 &&
+    \\
+    3) -2s_1 - s_2 + x_{3}^{+} - x_{3}^{-} - x_5 = 2 &&
+    \\
+    4) s_2 + s_3 = 3 &&
+    \\
+    5) s_1, s_2, s_3, x_{3}^{+}, x_{3}^{-}, x_4, x_5 \geq 0
+    \\
+\end{align*}
