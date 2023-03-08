@@ -1,7 +1,7 @@
 """
   Thông tin nhóm
   Thiều Đình Minh Hùng, 21000006, K66TNT
-  Lê Thị Thu An, K63TNT
+  Lê Thị Thu An, 18001975, K63TNT
   
   Lớp học phần: MAT 2407 4 TNT
   
@@ -10,7 +10,7 @@
   - Bài 2. getRandomElement(listX: list)
   - Bài 3. getUniqueElements(listA: list, listB: list)
   - Bài 4. getQueenNextPossiblePositions(PresentPosition: str)
-  - Bài 5. fen_to_board(fen: str)
+  - Bài 5. fenToBoard(fen: str)
 """
 # Bai 1:
 # 1)
@@ -133,10 +133,10 @@ print(getQueenNextPossiblePositions("c8")) # ['c1', 'c2', 'c3', 'c4', 'c5', 'c6'
 # biểu diễn nó một cách phù hợp. Có thể sử dụng các thư viện hỗ trợ.
 import chess
 
-def fen_to_board(fen):
+def fenToBoard(fen):
     board = chess.Board(fen)
     return board
 
 fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
-board = fen_to_board(fen)
+board = fenToBoard(fen)
 print(board)
