@@ -10,6 +10,7 @@
   - Bài 2. getRandomElement(listX: list)
   - Bài 3. getUniqueElements(listA: list, listB: list)
   - Bài 4. getQueenNextPossiblePositions(PresentPosition: str)
+  - Bài 5. fen_to_board(fen: str)
 """
 # Bai 1:
 # 1)
@@ -127,3 +128,15 @@ print(getQueenNextPossiblePositions("d6")) # ['d1', 'd2', 'd3', 'd4', 'd5', 'd7'
 print(getQueenNextPossiblePositions("a1")) # ['a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'b1', 'c1', 'd1', 'e1', 'f1', 'g1', 'h1', 'b2', 'c3', 'd4', 'e5', 'f6', 'g7', 'h8']
 print(getQueenNextPossiblePositions("c8")) # ['c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'a8', 'b8', 'd8', 'e8', 'f8', 'g8', 'h8', 'a6', 'b7', 'h3', 'g4', 'f5', 'e6', 'd7']
 
+#Bài 5:
+#Viết hàm nhận vào một Forsyth-Edwards Notation (FEN) và 
+# biểu diễn nó một cách phù hợp. Có thể sử dụng các thư viện hỗ trợ.
+import chess
+
+def fen_to_board(fen):
+    board = chess.Board(fen)
+    return board
+
+fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+board = fen_to_board(fen)
+print(board)
