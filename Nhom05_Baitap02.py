@@ -2,6 +2,9 @@
   Thông tin nhóm
   Thiều Đình Minh Hùng, 21000006, K66TNT
   Lê Thị Thu An, K63TNT
+  
+  Lớp học phần: MAT 2407 4 TNT
+  
   Danh sách bài tập
   - Bài 1. getAllCoordinates(), getAllWhiteCells(), printChessboard()
   - Bài 2. getRandomElement(listX: list)
