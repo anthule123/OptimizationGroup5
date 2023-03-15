@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.18)  15 MAR 2023 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.18)  15 MAR 2023 22:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,92 +382,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/ThinkPad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (cau4.tex
-cau4.tex:13: Missing $ inserted.
-<inserted text> 
-                $
-l.13 ...áº¥t cáº£ cÃ¡c bá»™ index (i,j) sao cho x_
-                                                  i,j = 1
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 14.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 14.
-
-
-LaTeX Warning: Command \d invalid in math mode on input line 14.
-
-
-LaTeX Warning: Command \h invalid in math mode on input line 14.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 14.
-
-
-LaTeX Warning: Command \d invalid in math mode on input line 14.
-
-
-LaTeX Warning: Command \d invalid in math mode on input line 14.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 14.
-
-
-LaTeX Warning: Command \d invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \d invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \dj invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \d invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 15.
-
-cau4.tex:16: Missing $ inserted.
-<inserted text> 
-                $
-l.16 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no   in font cmr10!
-Missing character: There is no ë in font cmr10!
-Missing character: There is no ê in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no ë in font cmr10!
-Missing character: There is no ª in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no ¤ in font cmr10!
-Missing character: There is no ¸ in font cmr10!
-Missing character: There is no æ in font cmr10!
-Missing character: There is no á in font cmr10!
-Missing character: There is no » in font cmr10!
-Missing character: There is no   in font cmr10!
-
-Overfull \hbox (41.39926pt too wide) in paragraph at lines 13--16
-[]\T5/cmr/m/n/10 - l§y t§t c£ c¡c bë in-dex (i,j) sao cho x$[]\OML/cmm/m/it/10 ; j \OT1/cmr/m/n/10 = 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 thmrngbuctngx[]; j < \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 vi\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 thuctpindextrn: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Lplicho\OT1/cmr/m/n/10 ^^_\OML/cmm/m/it/10 nkhikhngcnnghimno:$ 
- []
-
-) [2] (Nhom05_BaiTap03_AnHung.aux) ) 
+{C:/Users/ThinkPad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (cau4.tex) [2] (Nhom05_BaiTap03_AnHung.aux) ) 
 Here is how much of TeX's memory you used:
  3547 strings out of 476374
  51027 string characters out of 5801474
@@ -477,7 +392,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,5n,65p,282b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ThinkPad\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/symbols/msam5.pfb><D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnbx10.pfb><D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnr10.pfb>
-Output written on Nhom05_BaiTap03_AnHung.pdf (2 pages, 136414 bytes).
+Output written on Nhom05_BaiTap03_AnHung.pdf (2 pages, 132559 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
