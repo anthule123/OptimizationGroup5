@@ -1,0 +1,18 @@
+\begin{exercise}{4}{}
+
+    Xây dựng một đoạn mã giả trong đó sử dụng mô hình tối ưu tuyến tính/tối ưu nguyên, để
+    liệt kê tất cả các cách đặt 8 quân hậu trên bàn cờ vua tiêu chuẩn 8 × 8 sao cho không có hai
+    quân hậu nào tấn công nhau.
+    
+    \begin{solution}
+        - Xây dựng mô hình như bài 3.
+
+        - Mỗi khi tìm được 1 nghiệm ${x_{i,j}}$, 
+        để loại bỏ nghiệm này, ta cho
+        
+           - lấy tất cả các bộ index (i,j) sao cho x_i,j = 1
+           - thêm ràng buộc tổng x_i,j <8 với (i,j) thuộc tập index trên.
+        - Lặp lại cho đến khi không còn nghiệm nào.
+
+    \end{solution}
+\end{exercise}

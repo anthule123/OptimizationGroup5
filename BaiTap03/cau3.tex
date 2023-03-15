@@ -25,24 +25,80 @@ quân hậu hoặc không có quân hậu.
 %a)
 %b)
 %c)
-    \be
-\begin{enumerate}
+\begin{enumerate}[label=(\alph*)]
+    \item Dựa theo mô tả trên, có tất cả bao nhiêu biến có dạng này? Dựa theo giá trị có thể nhận
+    được, những biến này có tên gọi là gì?
+    \begin{answer}
+        Có tất cả 64 biến ở dạng này.
+        Những biến này có tên gọi là biến nhị phân.
+    \end{answer}
+    \item  Nêu biểu thức thể hiện số quân hậu trên bàn cờ. Nêu hàm mục tiêu (tuyến tính) của bài
+    toán.
+    \begin{answer}
+        Số quân hậu trên bàn cờ là tổng của tất cả các biến $x_{i,j}$
+        \begin{equation*}
+            \sum_{i=1}^8\sum_{j=1}^8 x_{i,j}
+        \end{equation*}
+        Hàm mục tiêu của bài toán là tối đa hóa số quân hậu trên bàn cờ.
+        \begin{equation*}
+          \max_{x_{i,j}}\sum_{i=1}^8\sum_{j=1}^8 x_{i,j}
+        \end{equation*}
+    \end{answer}
 
-    \item ádf
-    \item à
+    Tiếp theo ta quan tâm tới điều kiện quan trọng nhất của bài toán - không có hai quân hậu nào
+tấn công nhau. Bằng suy luận toán học, ta có thể chứng minh rằng điều này tương đương với
+điều kiện 
+    \begin{constraint}
+       (ĐK*) Mỗi hàng, mỗi cột, mỗi đường chéo của bàn cờ chỉ có tối đa một quân hậu.
+    \end{constraint}
+\item Chứng minh sự tương đương trên.
+   \begin{answer}
+    (Chiều đảo) Ta dễ thấy (ĐK*) suy ra không có quân hậu nào tấn công nhau.
+
+    (Chiều ngược) Giả sử có 1 hàng hoặc 1 cột hoặc 1 đường chéo có $\geq$ 2 quân hậu.
+     Ta có thể chọn
+    2 quân hậu liên tiếp trên đường này tấn công nhau. Do đó (ĐK*) không đúng.
+   \end{answer}
+\item Liệt kê tất cả điều kiện (tuyến tính) thể hiện (ĐK*).
+  \begin{answer}
+    Tổng ở mỗi hàng <=1
+    \begin{equation*}
+        \sum_{j=1}^8 x_{i,j} \leq 1, \forall i \in \{1,\dots, 8\}
+    \end{equation*}
+
+    Tổng ở mỗi cột <=1
+    \begin{equation*}
+        \sum_{i=1}^8 x_{i,j} \leq 1, \forall j \in \{1,\dots, 8\}
+    \end{equation*}
+    
+    Tổng ở mỗi đường chéo  <=1:
+
+      + Ta sẽ loại bỏ đường chéo mà chỉ có 1 phần tử, là đường chéo có Tổng
+         i+j = 1+1 = 2 hoặc 8+8 = 16, và đường chéo có hiệu i-j = 1-8 = -7,
+         i-j = 8-1 = 7.
+      + Với mỗi đường chéo có hiệu j-i=h (h từ -6 đến 6), ta có:
+    \begin{equation*}
+        \sum_{1\leq i \leq 8, \quad
+         1\leq i+h \leq 8 } x_{i, i+h} \leq 1,
+    \end{equation*}
+      + Với mỗi đường chéo có tổng i+j = s (s từ (1+2=3) đến (8+7=15)), ta có:
+    \begin{equation*}
+        \sum_{1\leq i \leq 8, \quad
+         1\leq s-i \leq 8 } x_{i, s-i} \leq 1,
+    \end{equation*}
+       Đường chéo mà chỉ có 1 quân thì ta sẽ loại bỏ.
+  \end{answer}
+   \item Dựa trên các ý trên, trình bày một mô hình tối ưu tuyến tính/tối ưu nguyên giải quyết bài
+   toán đặt ra ở đầu bài.
+   \begin{answer} Tạo mô hình như sau:
+    
+     + Model: 64 biến nhị phân
+
+     + Ràng buộc: các ràng buộc hàng, cột, chéo đã được liệt kê ở trên.
+
+     + Hàm mục tiêu:  $\max_{x_{i,j}}\sum_{i=1}^8\sum_{j=1}^8 x_{i,j}$
+
+   \end{answer}
 \end{enumerate}
-
-
-
-
-
-
-
-
-
-
-
-
-
 \end{solution}
 \end{exercise}

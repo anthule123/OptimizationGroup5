@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[utf8]{vietnam}
-
+\usepackage{enumitem}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -16,15 +16,20 @@
      \hfill\tiny$\blacksquare$\par\medskip}
 %tạo environment cho bài toán, có lựa chọn lùi 3cm
 \newenvironment{problem}[1]{%
-     \setlength\parindent{#1 pt}\par\medskip\textbf{Bài toán.}}{%
-     \hfill\tiny$\blacksquare$\par\medskip}
+     \setlength\parindent{#1 pt}\par\medskip\textbf{Bài toán.}}{}
 \newenvironment{solution}{%
      \setlength\parindent{0pt}\par\medskip\textbf{Lời giải.}\quad}{%
      \hfill\tiny$\blacksquare$\par\medskip}
+\newenvironment{answer}{%
+     \setlength\parindent{0pt}\par\medskip\textbf{-}\quad}{}
+\newenvironment{constraint}{%
+     \setlength\parindent{0pt}\par\medskip\textbf{Điều kiện.}\quad}{%
+     }
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \setlength{\parindent}{0pt}
 
 \begin{document}
 \input{cau3}
+\input{cau4}
 
 \end{document}
