@@ -6,6 +6,8 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{amsthm}
+%chèn gói hình ảnh
+
 \newtheorem{lemma}{Bổ đề}
 \newtheorem{theorem}{Định lý}
 \newtheorem{proposition}{Bài}
@@ -27,9 +29,17 @@
      }
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \setlength{\parindent}{0pt}
-
+%chèn file.pdf
+\usepackage{graphicx}
+\usepackage{caption}
+%làm sao chèn file pdf vào latex
+\usepackage{pdfpages}
 \begin{document}
+%chen đoạn pdf
+\includepdf[pages=-]{Bai 1}
+
 \input{cau3}
 \input{cau4}
+\includepdf[pages=-]{Bai 5(đã sửa)}
 
 \end{document}

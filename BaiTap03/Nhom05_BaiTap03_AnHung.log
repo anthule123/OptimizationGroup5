@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.18)  15 MAR 2023 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.18)  20 MAR 2023 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -314,29 +314,109 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks32
- (D:\o D\App\MikTex\tex/latex/geometry\geometry.cfg)) (D:\o D\App\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+ (D:\o D\App\MikTex\tex/latex/geometry\geometry.cfg)) (D:\o D\App\MikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:\o D\App\MikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (D:\o D\App\MikTex\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (D:\o D\App\MikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (D:\o D\App\MikTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+) (D:\o D\App\MikTex\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (D:\o D\App\MikTex\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen161
+\captionmargin=\dimen162
+\caption@leftmargin=\dimen163
+\caption@rightmargin=\dimen164
+\caption@width=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+) (D:\o D\App\MikTex\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (D:\o D\App\MikTex\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count281
+\calc@Bcount=\count282
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count283
+\calc@Cskip=\skip59
+) (D:\o D\App\MikTex\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen171
+\ESO@tempdimb=\dimen172
+ (D:\o D\App\MikTex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (D:\o D\App\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (D:\o D\App\MikTex\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+))
+\AM@pagewidth=\dimen173
+\AM@pageheight=\dimen174
+\AM@fboxrule=\dimen175
+ (D:\o D\App\MikTex\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count284
+\AM@pagebox=\box54
+\AM@global@opts=\toks33
+\AM@pagecnt=\count285
+\AM@toc@title=\toks34
+\AM@lof@heading=\toks35
+\c@AM@survey=\count286
+\AM@templatesizebox=\box55
+) (D:\o D\App\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box56
 ) (Nhom05_BaiTap03_AnHung.aux)
 \openout1 = `Nhom05_BaiTap03_AnHung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -372,7 +452,111 @@ LaTeX Font Info:    ... okay on input line 31.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(cau3.tex
+(D:\o D\App\MikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count288
+\scratchdimen=\dimen176
+\scratchbox=\box57
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen177
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks37
+) (D:\o D\App\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\o D\App\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (D:\o D\App\MikTex\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (D:\o D\App\MikTex\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (D:\o D\App\MikTex\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+<Bai 1.pdf, id=1, 597.67296pt x 834.40553pt>
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf>
+Package pdftex.def Info: Bai 1.pdf  used on input line 39.
+(pdftex.def)             Requested size: 597.6715pt x 834.40349pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf>
+Package pdftex.def Info: Bai 1.pdf  used on input line 39.
+(pdftex.def)             Requested size: 597.6715pt x 834.40349pt.
+<Bai 1.pdf, id=4, page=1, 597.67296pt x 834.40553pt>
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 1>
+Package pdftex.def Info: Bai 1.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 597.6715pt x 834.40349pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 1>
+Package pdftex.def Info: Bai 1.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 795.35448pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 1>
+Package pdftex.def Info: Bai 1.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 795.35448pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 1>
+Package pdftex.def Info: Bai 1.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 795.35448pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 1>
+Package pdftex.def Info: Bai 1.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 795.35448pt.
+ [1
+
+ <./Bai 1.pdf>]
+<Bai 1.pdf, id=12, page=2, 597.67296pt x 843.02937pt>
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 2>
+Package pdftex.def Info: Bai 1.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 803.57472pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 2>
+Package pdftex.def Info: Bai 1.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 803.57472pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 2>
+Package pdftex.def Info: Bai 1.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 803.57472pt.
+ [2 <./Bai 1.pdf>]
+<Bai 1.pdf, id=18, page=3, 597.67296pt x 839.73048pt>
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 3>
+Package pdftex.def Info: Bai 1.pdf , page3 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 800.43022pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 3>
+Package pdftex.def Info: Bai 1.pdf , page3 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 800.43022pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 3>
+Package pdftex.def Info: Bai 1.pdf , page3 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 800.43022pt.
+ [3 <./Bai 1.pdf>]
+<Bai 1.pdf, id=24, page=4, 597.67296pt x 842.60837pt>
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 4>
+Package pdftex.def Info: Bai 1.pdf , page4 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 803.17342pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 4>
+Package pdftex.def Info: Bai 1.pdf , page4 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 803.17342pt.
+File: Bai 1.pdf Graphic file (type pdf)
+<use Bai 1.pdf, page 4>
+Package pdftex.def Info: Bai 1.pdf , page4 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 803.17342pt.
+ [4 <./Bai 1.pdf>] (cau3.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
  (D:\o D\App\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -380,21 +564,65 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
  (D:\o D\App\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{C:/Users/ThinkPad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (cau4.tex) [2] (Nhom05_BaiTap03_AnHung.aux) ) 
+) [5{C:/Users/ThinkPad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (cau4.tex)
+<Bai 5(đã sửa).pdf, id=44, 597.67296pt x 838.2457pt>
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf>
+Package pdftex.def Info: Bai 5(đã sửa).pdf  used on input line 43.
+(pdftex.def)             Requested size: 597.6715pt x 838.24365pt.
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf>
+Package pdftex.def Info: Bai 5(đã sửa).pdf  used on input line 43.
+(pdftex.def)             Requested size: 597.6715pt x 838.24365pt.
+<Bai 5(đã sửa).pdf, id=47, page=1, 597.67296pt x 838.2457pt>
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf, page 1>
+Package pdftex.def Info: Bai 5(đã sửa).pdf , page1 used on input line 43.
+(pdftex.def)             Requested size: 597.6715pt x 838.24365pt.
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf, page 1>
+Package pdftex.def Info: Bai 5(đã sửa).pdf , page1 used on input line 43.
+(pdftex.def)             Requested size: 566.97443pt x 795.19054pt.
+ [6]
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf, page 1>
+Package pdftex.def Info: Bai 5(đã sửa).pdf , page1 used on input line 43.
+(pdftex.def)             Requested size: 566.97443pt x 795.19054pt.
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf, page 1>
+Package pdftex.def Info: Bai 5(đã sửa).pdf , page1 used on input line 43.
+(pdftex.def)             Requested size: 566.97443pt x 795.19054pt.
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf, page 1>
+Package pdftex.def Info: Bai 5(đã sửa).pdf , page1 used on input line 43.
+(pdftex.def)             Requested size: 566.97443pt x 795.19054pt.
+ [7 <./Bai 5(đã sửa).pdf>]
+<Bai 5(đã sửa).pdf, id=59, page=2, 597.67296pt x 844.28749pt>
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf, page 2>
+Package pdftex.def Info: Bai 5(đã sửa).pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 566.97443pt x 800.92201pt.
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf, page 2>
+Package pdftex.def Info: Bai 5(đã sửa).pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 566.97443pt x 800.92201pt.
+File: Bai 5(đã sửa).pdf Graphic file (type pdf)
+<use Bai 5(đã sửa).pdf, page 2>
+Package pdftex.def Info: Bai 5(đã sửa).pdf , page2 used on input line 43.
+(pdftex.def)             Requested size: 566.97443pt x 800.92201pt.
+ [8 <./Bai 5(đã sửa).pdf>] (Nhom05_BaiTap03_AnHung.aux) ) 
 Here is how much of TeX's memory you used:
- 3547 strings out of 476374
- 51027 string characters out of 5801474
- 1859340 words of memory out of 5000000
- 23921 multiletter control sequences out of 15000+600000
+ 7027 strings out of 476374
+ 110338 string characters out of 5801474
+ 1860340 words of memory out of 5000000
+ 27328 multiletter control sequences out of 15000+600000
  517248 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,282b,287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,17n,75p,297b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ThinkPad\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/o D/App/MikTex/fonts/type1/public/amsfonts/symbols/msam5.pfb><D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnbx10.pfb><D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnr10.pfb>
-Output written on Nhom05_BaiTap03_AnHung.pdf (2 pages, 132559 bytes).
+Output written on Nhom05_BaiTap03_AnHung.pdf (8 pages, 1176891 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
