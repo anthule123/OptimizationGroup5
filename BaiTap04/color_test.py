@@ -1,5 +1,5 @@
 import unittest
-from Nhom05_BaiTap04_AnHung import *
+from BaiTap04.Nhom05_BaiTap04_AnHung import *
 
 class TestFunction(unittest.TestCase):
     def testColorProblem(self,N=5,k=2):

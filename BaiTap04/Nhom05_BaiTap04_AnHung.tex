@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{vietnam}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+%chèn gói hình ảnh
+
+\newtheorem{lemma}{Bổ đề}
+\newtheorem{theorem}{Định lý}
+\newtheorem{proposition}{Bài}
+%tạo evirontment cho Bài tập, có lựa chọn tên bài tập, chú thích trong ()
+%ví dụ như Bài tập 3. (bài tập mô hình hóa - mở đầu)
+\newenvironment{exercise}[2]{
+     \setlength\parindent{0pt}\par\medskip\textbf{Bài tập #1. (#2)} \quad}{%
+     \hfill\tiny$\blacksquare$\par\medskip}
+%tạo environment cho bài toán, có lựa chọn lùi 3cm
+\newenvironment{problem}[1]{%
+     \setlength\parindent{#1 pt}\par\medskip\textbf{Bài toán.}}{}
+\newenvironment{solution}{%
+     \setlength\parindent{0pt}\par\medskip\textbf{Lời giải.}\quad}{%
+     \hfill\tiny$\blacksquare$\par\medskip}
+\newenvironment{answer}{%
+     \setlength\parindent{0pt}\par\medskip\textbf{-}\quad}{}
+\newenvironment{constraint}{%
+     \setlength\parindent{0pt}\par\medskip\textbf{Điều kiện.}\quad}{%
+     }
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\setlength{\parindent}{0pt}
+%chèn file.pdf
+\usepackage{graphicx}
+\usepackage{caption}
+%làm sao chèn file pdf vào latex
+\usepackage{pdfpages}
+\begin{document}
+%chen đoạn pdf
+\includepdf[pages=-]{Bài04_01.pdf}
+\includepdf[pages=-]{bai04_02.pdf}
+\end{document}

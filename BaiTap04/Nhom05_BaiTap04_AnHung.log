@@ -1,0 +1,661 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.18)  22 MAR 2023 22:14
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"d:/do it 2/OptimizationGroup5/BaiTap04/Nhom05_BaiTap04_AnHung.tex"
+(d:/do it 2/OptimizationGroup5/BaiTap04/Nhom05_BaiTap04_AnHung.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-02> (D:\o D\App\MikTex\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(D:\o D\App\MikTex\tex/latex/base\size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (D:\o D\App\MikTex\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (D:\o D\App\MikTex\tex/latex/vntex\vietnam.sty
+Package: vietnam 2009/07/12 v1.3 support for Vietnamese
+ (D:\o D\App\MikTex\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (D:\o D\App\MikTex\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+ (D:\o D\App\MikTex\tex/latex/vntex\t5enc.def
+File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
+Now handling font encoding T5 ...
+... processing UTF-8 mapping file for font encoding T5
+ (D:\o D\App\MikTex\tex/latex/vntex\t5enc.dfu
+File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+01A0 (decimal 416)
+   defining Unicode char U+01A1 (decimal 417)
+   defining Unicode char U+01AF (decimal 431)
+   defining Unicode char U+01B0 (decimal 432)
+   defining Unicode char U+1EA0 (decimal 7840)
+   defining Unicode char U+1EA1 (decimal 7841)
+   defining Unicode char U+1EA2 (decimal 7842)
+   defining Unicode char U+1EA3 (decimal 7843)
+   defining Unicode char U+1EA4 (decimal 7844)
+   defining Unicode char U+1EA5 (decimal 7845)
+   defining Unicode char U+1EA6 (decimal 7846)
+   defining Unicode char U+1EA7 (decimal 7847)
+   defining Unicode char U+1EA8 (decimal 7848)
+   defining Unicode char U+1EA9 (decimal 7849)
+   defining Unicode char U+1EAA (decimal 7850)
+   defining Unicode char U+1EAB (decimal 7851)
+   defining Unicode char U+1EAC (decimal 7852)
+   defining Unicode char U+1EAD (decimal 7853)
+   defining Unicode char U+1EAE (decimal 7854)
+   defining Unicode char U+1EAF (decimal 7855)
+   defining Unicode char U+1EB0 (decimal 7856)
+   defining Unicode char U+1EB1 (decimal 7857)
+   defining Unicode char U+1EB2 (decimal 7858)
+   defining Unicode char U+1EB3 (decimal 7859)
+   defining Unicode char U+1EB4 (decimal 7860)
+   defining Unicode char U+1EB5 (decimal 7861)
+   defining Unicode char U+1EB6 (decimal 7862)
+   defining Unicode char U+1EB7 (decimal 7863)
+   defining Unicode char U+1EB8 (decimal 7864)
+   defining Unicode char U+1EB9 (decimal 7865)
+   defining Unicode char U+1EBA (decimal 7866)
+   defining Unicode char U+1EBB (decimal 7867)
+   defining Unicode char U+1EBC (decimal 7868)
+   defining Unicode char U+1EBD (decimal 7869)
+   defining Unicode char U+1EBE (decimal 7870)
+   defining Unicode char U+1EBF (decimal 7871)
+   defining Unicode char U+1EC0 (decimal 7872)
+   defining Unicode char U+1EC1 (decimal 7873)
+   defining Unicode char U+1EC2 (decimal 7874)
+   defining Unicode char U+1EC3 (decimal 7875)
+   defining Unicode char U+1EC4 (decimal 7876)
+   defining Unicode char U+1EC5 (decimal 7877)
+   defining Unicode char U+1EC6 (decimal 7878)
+   defining Unicode char U+1EC7 (decimal 7879)
+   defining Unicode char U+1EC8 (decimal 7880)
+   defining Unicode char U+1EC9 (decimal 7881)
+   defining Unicode char U+1ECA (decimal 7882)
+   defining Unicode char U+1ECB (decimal 7883)
+   defining Unicode char U+1ECC (decimal 7884)
+   defining Unicode char U+1ECD (decimal 7885)
+   defining Unicode char U+1ECE (decimal 7886)
+   defining Unicode char U+1ECF (decimal 7887)
+   defining Unicode char U+1ED0 (decimal 7888)
+   defining Unicode char U+1ED1 (decimal 7889)
+   defining Unicode char U+1ED2 (decimal 7890)
+   defining Unicode char U+1ED3 (decimal 7891)
+   defining Unicode char U+1ED4 (decimal 7892)
+   defining Unicode char U+1ED5 (decimal 7893)
+   defining Unicode char U+1ED6 (decimal 7894)
+   defining Unicode char U+1ED7 (decimal 7895)
+   defining Unicode char U+1ED8 (decimal 7896)
+   defining Unicode char U+1ED9 (decimal 7897)
+   defining Unicode char U+1EDA (decimal 7898)
+   defining Unicode char U+1EDB (decimal 7899)
+   defining Unicode char U+1EDC (decimal 7900)
+   defining Unicode char U+1EDD (decimal 7901)
+   defining Unicode char U+1EDE (decimal 7902)
+   defining Unicode char U+1EDF (decimal 7903)
+   defining Unicode char U+1EE0 (decimal 7904)
+   defining Unicode char U+1EE1 (decimal 7905)
+   defining Unicode char U+1EE2 (decimal 7906)
+   defining Unicode char U+1EE3 (decimal 7907)
+   defining Unicode char U+1EE4 (decimal 7908)
+   defining Unicode char U+1EE5 (decimal 7909)
+   defining Unicode char U+1EE6 (decimal 7910)
+   defining Unicode char U+1EE7 (decimal 7911)
+   defining Unicode char U+1EE8 (decimal 7912)
+   defining Unicode char U+1EE9 (decimal 7913)
+   defining Unicode char U+1EEA (decimal 7914)
+   defining Unicode char U+1EEB (decimal 7915)
+   defining Unicode char U+1EEC (decimal 7916)
+   defining Unicode char U+1EED (decimal 7917)
+   defining Unicode char U+1EEE (decimal 7918)
+   defining Unicode char U+1EEF (decimal 7919)
+   defining Unicode char U+1EF0 (decimal 7920)
+   defining Unicode char U+1EF1 (decimal 7921)
+   defining Unicode char U+1EF2 (decimal 7922)
+   defining Unicode char U+1EF3 (decimal 7923)
+   defining Unicode char U+1EF4 (decimal 7924)
+   defining Unicode char U+1EF5 (decimal 7925)
+   defining Unicode char U+1EF6 (decimal 7926)
+   defining Unicode char U+1EF7 (decimal 7927)
+   defining Unicode char U+1EF8 (decimal 7928)
+   defining Unicode char U+1EF9 (decimal 7929)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+))
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 112.
+ (D:\o D\App\MikTex\tex/latex/vntex\t5cmr.fd
+File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)) (D:\o D\App\MikTex\tex/latex/vntex\vncaps.tex
+File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
+)) (D:\o D\App\MikTex\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks18
+\labelindent=\skip50
+\enit@outerparindent=\dimen141
+\enit@toks=\toks19
+\enit@inbox=\box51
+\enit@count@id=\count193
+\enitdp@description=\count194
+) (D:\o D\App\MikTex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(D:\o D\App\MikTex\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (D:\o D\App\MikTex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen142
+)) (D:\o D\App\MikTex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) (D:\o D\App\MikTex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count195
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count196
+\leftroot@=\count197
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count198
+\DOTSCASE@=\count199
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count266
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count267
+\dotsspace@=\muskip16
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
+\tag@help=\toks21
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
+\andhelp@=\toks22
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks23
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (D:\o D\App\MikTex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (D:\o D\App\MikTex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (D:\o D\App\MikTex\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks30
+)
+\c@lemma=\count273
+\c@theorem=\count274
+\c@proposition=\count275
+ (D:\o D\App\MikTex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (D:\o D\App\MikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks31
+) (D:\o D\App\MikTex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (D:\o D\App\MikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count276
+\Gm@cntv=\count277
+\c@Gm@tempcnt=\count278
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks32
+ (D:\o D\App\MikTex\tex/latex/geometry\geometry.cfg)) (D:\o D\App\MikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:\o D\App\MikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (D:\o D\App\MikTex\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (D:\o D\App\MikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (D:\o D\App\MikTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+) (D:\o D\App\MikTex\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (D:\o D\App\MikTex\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen161
+\captionmargin=\dimen162
+\caption@leftmargin=\dimen163
+\caption@rightmargin=\dimen164
+\caption@width=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+) (D:\o D\App\MikTex\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (D:\o D\App\MikTex\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count281
+\calc@Bcount=\count282
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count283
+\calc@Cskip=\skip59
+) (D:\o D\App\MikTex\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen171
+\ESO@tempdimb=\dimen172
+ (D:\o D\App\MikTex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (D:\o D\App\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (D:\o D\App\MikTex\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+))
+\AM@pagewidth=\dimen173
+\AM@pageheight=\dimen174
+\AM@fboxrule=\dimen175
+ (D:\o D\App\MikTex\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count284
+\AM@pagebox=\box54
+\AM@global@opts=\toks33
+\AM@pagecnt=\count285
+\AM@toc@title=\toks34
+\AM@lof@heading=\toks35
+\c@AM@survey=\count286
+\AM@templatesizebox=\box55
+) (D:\o D\App\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box56
+) (Nhom05_BaiTap04_AnHung.aux)
+\openout1 = `Nhom05_BaiTap04_AnHung.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(D:\o D\App\MikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count288
+\scratchdimen=\dimen176
+\scratchbox=\box57
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen177
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks37
+) (D:\o D\App\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\o D\App\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (D:\o D\App\MikTex\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (D:\o D\App\MikTex\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (D:\o D\App\MikTex\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+<Bài04_01.pdf, id=1, 597.67296pt x 834.85031pt>
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf>
+Package pdftex.def Info: Bài04_01.pdf  used on input line 39.
+(pdftex.def)             Requested size: 597.6715pt x 834.84827pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf>
+Package pdftex.def Info: Bài04_01.pdf  used on input line 39.
+(pdftex.def)             Requested size: 597.6715pt x 834.84827pt.
+<Bài04_01.pdf, id=4, page=1, 597.67296pt x 834.85031pt>
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 1>
+Package pdftex.def Info: Bài04_01.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 597.6715pt x 834.84827pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 1>
+Package pdftex.def Info: Bài04_01.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 795.77844pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 1>
+Package pdftex.def Info: Bài04_01.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 795.77844pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 1>
+Package pdftex.def Info: Bài04_01.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 795.77844pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 1>
+Package pdftex.def Info: Bài04_01.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 795.77844pt.
+ [1
+
+ <./Bài04_01.pdf>]
+<Bài04_01.pdf, id=12, page=2, 597.67296pt x 844.43073pt>
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 2>
+Package pdftex.def Info: Bài04_01.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 804.91049pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 2>
+Package pdftex.def Info: Bài04_01.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 804.91049pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 2>
+Package pdftex.def Info: Bài04_01.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 804.91049pt.
+ [2 <./Bài04_01.pdf>]
+<Bài04_01.pdf, id=18, page=3, 597.67296pt x 838.65358pt>
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 3>
+Package pdftex.def Info: Bài04_01.pdf , page3 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 799.4037pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 3>
+Package pdftex.def Info: Bài04_01.pdf , page3 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 799.4037pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 3>
+Package pdftex.def Info: Bài04_01.pdf , page3 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 799.4037pt.
+ [3 <./Bài04_01.pdf>]
+<Bài04_01.pdf, id=24, page=4, 597.67296pt x 850.41684pt>
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 4>
+Package pdftex.def Info: Bài04_01.pdf , page4 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 810.61644pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 4>
+Package pdftex.def Info: Bài04_01.pdf , page4 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 810.61644pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 4>
+Package pdftex.def Info: Bài04_01.pdf , page4 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 810.61644pt.
+ [4 <./Bài04_01.pdf>]
+<Bài04_01.pdf, id=30, page=5, 597.67296pt x 849.53732pt>
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 5>
+Package pdftex.def Info: Bài04_01.pdf , page5 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 809.77809pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 5>
+Package pdftex.def Info: Bài04_01.pdf , page5 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 809.77809pt.
+File: Bài04_01.pdf Graphic file (type pdf)
+<use Bài04_01.pdf, page 5>
+Package pdftex.def Info: Bài04_01.pdf , page5 used on input line 39.
+(pdftex.def)             Requested size: 569.70123pt x 809.77809pt.
+ [5 <./Bài04_01.pdf>]
+<bai04_02.pdf, id=36, 597.23125pt x 845.1575pt>
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf>
+Package pdftex.def Info: bai04_02.pdf  used on input line 40.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf>
+Package pdftex.def Info: bai04_02.pdf  used on input line 40.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<bai04_02.pdf, id=39, page=1, 597.23125pt x 845.1575pt>
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 1>
+Package pdftex.def Info: bai04_02.pdf , page1 used on input line 40.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 1>
+Package pdftex.def Info: bai04_02.pdf , page1 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 1>
+Package pdftex.def Info: bai04_02.pdf , page1 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 1>
+Package pdftex.def Info: bai04_02.pdf , page1 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 1>
+Package pdftex.def Info: bai04_02.pdf , page1 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [6 <./bai04_02.pdf>]
+<bai04_02.pdf, id=46, page=2, 597.23125pt x 845.1575pt>
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 2>
+Package pdftex.def Info: bai04_02.pdf , page2 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 2>
+Package pdftex.def Info: bai04_02.pdf , page2 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 2>
+Package pdftex.def Info: bai04_02.pdf , page2 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [7 <./bai04_02.pdf>]
+<bai04_02.pdf, id=52, page=3, 597.23125pt x 845.1575pt>
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 3>
+Package pdftex.def Info: bai04_02.pdf , page3 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 3>
+Package pdftex.def Info: bai04_02.pdf , page3 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 3>
+Package pdftex.def Info: bai04_02.pdf , page3 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [8 <./bai04_02.pdf>]
+<bai04_02.pdf, id=57, page=4, 597.23125pt x 845.1575pt>
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 4>
+Package pdftex.def Info: bai04_02.pdf , page4 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 4>
+Package pdftex.def Info: bai04_02.pdf , page4 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: bai04_02.pdf Graphic file (type pdf)
+<use bai04_02.pdf, page 4>
+Package pdftex.def Info: bai04_02.pdf , page4 used on input line 40.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [9 <./bai04_02.pdf>] (Nhom05_BaiTap04_AnHung.aux) ) 
+Here is how much of TeX's memory you used:
+ 6988 strings out of 476374
+ 109856 string characters out of 5801474
+ 1850340 words of memory out of 5000000
+ 27310 multiletter control sequences out of 15000+600000
+ 513258 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 69i,17n,75p,297b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Nhom05_BaiTap04_AnHung.pdf (9 pages, 2010841 bytes).
+PDF statistics:
+ 64 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+
