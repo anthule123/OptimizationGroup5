@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        ".",
+        "./BaiTap04",
         "-p",
         "*test.py"
     ],

@@ -1,6 +1,22 @@
-# Github Copilot
-# Github Education
-
+"""
+  Thông tin nhóm
+  Thiều Đình Minh Hùng, 21000006, K66TNT
+  Lê Thị Thu An, 18001975, K63TNT
+  
+  Lớp học phần: MAT 2407 4 TNT
+  
+  Danh sách bài tập
+  - bài 3.
+     4. ColorProblem(N: int, k: int)
+        Hàm kiểm tra xem với k màu, có thể tô N số từ 1->N 
+        bởi k màu sao cho ko có bộ 3 số 1<=a<b<c<=N sao cho a+b=c
+        và a,b,c đều được tô cùng một màu.
+     5. findNForKColors(k: int)
+        Hàm tìm số N lớn nhất nhất sao cho với k màu, 
+        có thể tô N số từ 1->N bởi k màu sao cho
+        ko có bộ 3 số 1<=a<b<c<=N sao cho a+b=c
+        và a,b,c đều được tô cùng một màu.
+"""
 import gurobipy as gp
 from gurobipy import GRB
 
@@ -47,3 +63,17 @@ class ColorProblem:
 modelColor = ColorProblem(11, 3)
 print(modelColor.listOfThreeSum)
 modelColor.solve()
+
+# Cho k màu, 
+# #tìm số N nhỏ nhất sao cho có thể tô màu theo cách trên cho N số từ 1->N.
+def findNforKColors(k):
+    n = k
+    while True:
+        modelColor = ColorProblem(n+1, k)
+        modelColor.solve()
+        #nếu có nghiệm feasible thì 
+        if modelColor.model.status == GRB.OPTIMAL:
+            n += 1
+        else:
+            return n
+ 

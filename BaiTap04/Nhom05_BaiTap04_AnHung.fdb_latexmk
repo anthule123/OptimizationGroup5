@@ -1,8 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1679498080 "d:/do it 2/OptimizationGroup5/BaiTap04/Nhom05_BaiTap04_AnHung.tex" "Nhom05_BaiTap04_AnHung.pdf" "Nhom05_BaiTap04_AnHung" 1679498082 0
+["pdflatex"] 1679503051 "d:/do it 2/OptimizationGroup5/BaiTap04/Nhom05_BaiTap04_AnHung.tex" "Nhom05_BaiTap04_AnHung.pdf" "Nhom05_BaiTap04_AnHung" 1679503054 0
   "Bài04_01.pdf" 1679493943 817747 7667d91c824be3c5d99d3e16841c6801 ""
+  "C:/Users/ThinkPad/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1679310245 89969 e95579120a3aa0ebc21d2737ca2ba701 ""
   "C:/Users/ThinkPad/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1676722147 23161727 01a06a4d45e48a258738e6d6a53f2649 ""
+  "D:/o D/App/MikTex/fonts/tfm/vntex/vnr/vnbx12.tfm" 1644004041 4020 c48f3c7e11edde839ff6260300faa1bb ""
   "D:/o D/App/MikTex/fonts/tfm/vntex/vnr/vnr10.tfm" 1644004041 3980 a378198bbdb2c6fcd4b722396a62ad27 ""
+  "D:/o D/App/MikTex/fonts/tfm/vntex/vnr/vnr12.tfm" 1644004041 3984 be7b630197255361b12d153ce5e1bc5b ""
+  "D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnbx12.pfb" 1644004041 41089 cd085a6112214f1ec9535fe0d1ee127f ""
+  "D:/o D/App/MikTex/fonts/type1/vntex/vnr/vnr10.pfb" 1644004041 41608 f55c1a79be39d4e7ed224ba660d7353d ""
   "D:/o D/App/MikTex/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "D:/o D/App/MikTex/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "D:/o D/App/MikTex/tex/generic/iftex/ifvtex.sty" 1643997108 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -48,10 +53,10 @@
   "D:/o D/App/MikTex/tex/latex/vntex/vietnam.sty" 1368738347 2477 91784aa2c9213f74609391e3cae65a13 ""
   "D:/o D/App/MikTex/tex/latex/vntex/vncaps.tex" 1368738347 3273 a55ebdb07413d2fea580f210e3c0b252 ""
   "D:/o D/App/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Nhom05_BaiTap04_AnHung.aux" 1679498082 32 1b174032087fb90900fa6203d3bb0a7e "pdflatex"
-  "Nhom05_BaiTap04_AnHung.tex" 1679498071 1493 ef90a64f6ba9857490dc78e0107e8665 ""
+  "Nhom05_BaiTap04_AnHung.aux" 1679503053 33 06c322e1d88c4778ac780ba5e7d05c77 "pdflatex"
+  "Nhom05_BaiTap04_AnHung.tex" 1679503052 1712 58fe198df35355d0b85682908d0755f9 ""
   "bai04_02.pdf" 1679497724 1191658 28a7802ac920b249a0a247a8eda1b482 ""
-  "d:/do it 2/OptimizationGroup5/BaiTap04/Nhom05_BaiTap04_AnHung.tex" 1679498071 1493 ef90a64f6ba9857490dc78e0107e8665 ""
+  "d:/do it 2/OptimizationGroup5/BaiTap04/Nhom05_BaiTap04_AnHung.tex" 1679503052 1712 58fe198df35355d0b85682908d0755f9 ""
   (generated)
   "Nhom05_BaiTap04_AnHung.aux"
   "Nhom05_BaiTap04_AnHung.log"
