@@ -1,0 +1,317 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsopn}
+\usepackage{amsthm}
+\usepackage{commath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsxtra}
+\usepackage{indentfirst}
+\usepackage{pdfpages}
+\usepackage[sort&compress]{natbib}
+\usepackage{wasysym}
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage[mathscr]{eucal}
+\usepackage{tikz}
+
+\DeclareMathOperator{\spn}{span}
+\DeclareMathOperator{\dis}{d}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\codim}{\operatorname{codim}}
+\newcommand{\olsi}[1]{\,\overline{\!{#1}}}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{% <---- BEWARE
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+\newtheorem{lemma*}{Bổ đề}
+\newtheorem{theorem}{Định lý}
+\newtheorem{proposition}{Bài}
+\newtheorem{corollary*}{Chứng minh}
+\newenvironment{solution}{%
+     \setlength\parindent{0pt}\par\medskip\textbf{Lời giải.}\quad}{%
+     \hfill\tiny$\blacksquare$\par\medskip}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+    Thông tin các thành viên trong nhóm 5:
+    \begin{enumerate}
+        \item[1)] Lê Thị Thu An, 18001975, K63 TN Toán học.
+        \item[2)] Thiều Đình Minh Hùng, 21000006, K66 TN Toán học.
+    \end{enumerate}
+    \begin{center}
+        $*********$
+    \end{center}
+    \textbf{Bài tập 1: } Giải bài toán quy hoạch tuyến tính sau:
+    \begin{equation*}
+        \begin{array}{lr@{}c@{}r@{}l}
+            \text{max} &c^{T}x\\
+            \text{s.t.} & Ax{} & {}={} & b\\
+            & x{} & {}\geq{} & {}0
+        \end{array},
+    \end{equation*}
+    với:
+    \begin{equation*}
+        c = \begin{bmatrix} 
+            1 \\ 
+            -1 \\ 
+            0 \\ 
+            -3 
+        \end{bmatrix}, \quad, 
+        A = \begin{bmatrix} 
+            1 & -2 & 3 & 0 \\ 
+            3 & -1 & 4 & 1 \\ 
+            -2 & -1 & -1 & -1
+        \end{bmatrix}, \quad b = \begin{bmatrix} 
+            6 \\ 
+            13 \\ 
+            -7
+        \end{bmatrix}.
+    \end{equation*}
+    \begin{solution}
+        \\
+        Đây là bài toán quy hoạch tuyến tính dạng chính tắc. Nhân hai vế điều kiện thứ 3 với $(-1)$, ta có thể viết lại bài toán như sau:
+        \begin{align*}
+            \begin{tabular}{cccccccccc}
+                \text{max} & $x_1$ & $-$ & $x_2$ & & & $-$ & $3x_4$ \\
+                \text{s.t.} & $x_1$ & $-$ & $2x_2$ & $+$ & $3x_3$ & & & $=$ & $6$ \\
+                & $3x_1$ & $-$ & $x_2$ & $+$ & $4x_3$ & $+$ & $x_4$ & $=$ & $13$ \\
+                & $2x_1$ & $+$ & $x_2$ & $+$ & $x_3$ & $+$ & $x_4$ & $=$ & $7$ \\
+            \end{tabular}
+            \\
+            x_1, x_2, x_3, x_4 \geq 0
+        \end{align*}
+        \\
+        Bài toán bổ trợ $\mathscr{D}$:
+        \begin{align*}
+            \begin{tabular}{cccccccccccccccc}
+                \text{max} & $6x_1$ & $-$ & $2x_2$ & $+$ & $8x_3$ & $+$ & $2x_4$ \\
+                \text{s.t.} & $x_1$ & $-$ & $2x_2$ & $+$ & $3x_3$ & & & $+$ & $y_1$ & & & & & $=$ & $6$ \\
+                & $3x_1$ & $-$ & $x_2$ & $+$ & $4x_3$ & $+$ & $x_4$ & & & $+$ & $y_2$ & & & $=$ & $13$ \\
+                & $2x_1$ & $+$ & $x_2$ & $+$ & $x_3$ & $+$ & $x_4$ & & & & & $+$ & $y_3$ & $=$ & $7$ \\
+            \end{tabular}
+            \\
+            x_1, x_2, x_3, x_4 , y_1, y_2, y_3 \geq 0
+        \end{align*}
+        Bảng đơn hình (có hàm mục tiêu của cả bài toán gốc và bài toán bổ trợ):
+        \begin{align*}
+            \begin{tabular}{c|ccccccc|c}
+                \text{Basis} & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $y_1$ & $y_2$ & $y_3$ & RHS \\ \hline
+                $y_1$ & 1 & -2 & 3 & 0 & 1 & 0 & 0 & 6 \\
+                $y_2$ & 3 & -1 & 4 & 1 & 0 & 1 & 0 & 13 \\
+                $y_3$ & 2 & 1 & 1 & 1 & 0 & 0 & 1 & 7 \\ \hline
+                $z$ & 1 & -1 & 0 & -3 & 0 & 0 & 0 & 0 \\
+                $w$ & 6 & -2 & 8 & 2 & 0 & 0 & 0 & 0
+            \end{tabular}
+        \end{align*}
+        Ta thực hiện các phép xoay để tìm cơ sở chấp nhận được cho bài toán ban đầu bằng cách giải bài toán bổ trợ:
+        \begin{align*}
+            \begin{tabular}{c|ccccccc|cc}
+                \text{Basis} & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $y_1$ & $y_2$ & $y_3$ & RHS & Ratio \\ \hline
+                $y_1$ & 1 & -2 & 3 & 0 & 1 & 0 & 0 & 6 & 6\\
+                $y_2$ & 3 & -1 & 4 & 1 & 0 & 1 & 0 & 13 & 13/3\\
+                $y_3$ & \circled{2} & 1 & 1 & 1 & 0 & 0 & 1 & 7 & 7/2 \\ \hline
+                $z$ & 1 & -1 & 0 & -3 & 0 & 0 & 0 & 0 \\
+                $w$ & 6 & -2 & 8 & 2 & 0 & 0 & 0 & 0
+            \end{tabular}
+            \\
+            \\
+            \begin{tabular}{c|ccccccc|cc}
+                \text{Basis} & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $y_1$ & $y_2$ & $y_3$ & RHS \\ \hline
+                $y_1$ & 0 & -5/2 & 5/2 & -1/2 & 1 & 0 & -1/2 & 5/2 \\
+                $y_2$ & 0 & -5/2 & 5/2 & -1/2 & 0 & 1 & -3/2 & 5/2 \\
+                $x_1$ & 2 & 1 & 1 & 1 & 0 & 0 & 1 & 7 \\ \hline
+                $z$ & 0 & -3/2 & -1/2 & -7/2 & 0 & 0 & -1/2 & -7/2 \\
+                $w$ & 0 & -5 & 5 & -1 & 0 & 0 & -3 & -21
+            \end{tabular}
+            \\
+            \\
+            \begin{tabular}{c|ccccccc|cc}
+                \text{Basis} & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $y_1$ & $y_2$ & $y_3$ & RHS & Ratio \\ \hline
+                $y_1$ & 0 & -5/2 & \circled{5/2} & -1/2 & 1 & 0 & -1/2 & 5/2 & 1 \\
+                $y_2$ & 0 & -5/2 & 5/2 & -1/2 & 0 & 1 & -3/2 & 5/2 & 1 \\
+                $x_1$ & 1 & 1/2 & 1/2 & 1/2 & 0 & 0 & 1/2 & 7/2 & 7 \\ \hline
+                $z$ & 0 & -3/2 & -1/2 & -7/2 & 0 & 0 & -1/2 & -7/2 \\
+                $w$ & 0 & -5 & 5 & -1 & 0 & 0 & -3 & -21
+            \end{tabular}
+            \\
+            \\
+            \begin{tabular}{c|ccccccc|cc}
+                \text{Basis} & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $y_1$ & $y_2$ & $y_3$ & RHS \\ \hline
+                $x_3$ & 0 & -5/2 & 5/2 & -1/2 & 1 & 0 & -1/2 & 5/2 \\
+                $y_2$ & 0 & 0 & 0 & 0 & -1 & 1 & -1 & 0 \\
+                $x_1$ & 1 & 1 & 0 & 3/5 & -1/5 & 0 & 3/5 & 3 \\ \hline
+                $z$ & 0 & -2 & 0 & -18/5 & 1/5 & 0 & -3/5 & -3 \\
+                $w$ & 0 & 0 & 0 & 0 & -2 & 0 & -2 & -26
+            \end{tabular}
+            \\
+            \\
+            \begin{tabular}{c|ccccccc|cc}
+                \text{Basis} & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $y_1$ & $y_2$ & $y_3$ & RHS \\ \hline
+                $x_3$ & 0 & -1 & 1 & -1/5 & 2/5 & 0 & -1/5 & 1 \\
+                $y_2$ & 0 & 0 & 0 & 0 & -1 & 1 & -1 & 0 \\
+                $x_1$ & 1 & 1 & 0 & 3/5 & -1/5 & 0 & 3/5 & 3 \\ \hline
+                $z$ & 0 & -2 & 0 & -18/5 & 1/5 & 0 & -3/5 & -3 \\
+                $w$ & 0 & 0 & 0 & 0 & -2 & 0 & -2 & -26
+            \end{tabular}
+        \end{align*}
+        Nghiệm tối ưu của bài toán bổ trợ có $y = 0$ nên bài toán ban đầu có nghiệm CNĐ, với cơ sở thu được từ bảng đơn hình trên bị suy biến và chứa biến $y_2$. 
+        \\
+        Vì dòng ứng với biến $y_2$ có các hệ số ứng với các biến $x_1, x_2, x_3, x_4$ bằng 0, nên ta có thể bỏ dòng này đi và ta có cơ sở CNĐ cho bài toán ban đầu là $\{x_3, x_1\}$.
+        \\
+        Bảng đơn hình của bài toán ban đầu với cơ sở CNĐ tương ứng ở trên là:
+        \begin{align*}
+            \begin{tabular}{c|cccc|cc}
+                \text{Basis} & $x_1$ & $x_2$ & $x_3$ & $x_4$ & RHS \\ \hline
+                $x_3$ & 0 & -1 & 1 & -1/5 & 1 \\
+                $x_1$ & 1 & 1 & 0 & 3/5 & 3 \\ \hline
+                $z$ & 0 & -2 & 0 & -18/5 & -3 \\
+            \end{tabular}
+        \end{align*}
+        Như vậy $\{x_3, x_1\}$ chính là cơ sở CNĐ tối ưu cho bài toán ban đầu, và ta có nghiệm tối ưu:
+        \begin{align*}
+            x = \begin{bmatrix}
+                3 & 0 & 1 & 0
+            \end{bmatrix}^T,
+        \end{align*}
+        với giá trị tối ưu là 3.
+    \end{solution}
+    \textbf{Bài tập 2.} Viết bài toán đối ngẫu của bài toán sau:
+    \begin{align*}
+        \begin{tabular}{cccccccccc}
+            \text{min} & $2x_1$ & $-$ & $4x_2$ & $+$ & $4x_3$ \\
+            \text{s.t.} & $4x_1$ & $+$ & $2x_2$ & $-$ & $2x_3$ & $+$ & $2x_4$ & $\leq$ & 3 \\
+            & $4x_1$ & $-$ & $2x_2$ & $-$ & $4x_3$ & $+$ & $4x_4$ & $\geq$ & 3 \\
+            & $2x_1$ & $-$ & $2x_2$ & $+$ & $3x_3$ & $+$ & $2x_4$ & $=$ & 4 \\
+            & & & & & & & $x_1$ & $\leq$ & 0\\
+            & & & & & & $x_2,$ & $x_3$ & $\geq$ & 0\\
+        \end{tabular}
+    \end{align*}
+    \textbf{Bài tập 4.} Sử dụng định lý về độ lệch bù, kiểm tra xem $x = \begin{bmatrix} 0 & 1 & 1 & 1 \end{bmatrix}^T$ có phải là nghiệm tối ưu của LP sau không:
+    \begin{align*}
+        \begin{tabular}{cccccccccc}
+            \text{max} & $4x_1$ & $+$ & $2x_2$ & $+$ & $2x_3$ & $+$ & $4x_4$ \\
+            \text{s.t.} & $2x_1$ & $+$ & $x_2$ & $+$ & $x_3$ & $+$ & $x_4$ & $\leq$ & 3 \\
+            & $x_1$ & $+$ & $x_2$ & & & $+$ & $2x_4$ & $\leq$ & 3 \\
+            & $x_1$ & $+$ & $2x_2$ & $+$ & $3x_3$ & $+$ & $x_4$ & $\leq$ & 7 \\
+            & $2x_1$ & & & $+$ & $x_3$ & $+$ & $x_4$ & $\leq$ & 2\\
+            & & & & $x_1,$ & $x_2,$ & $x_3,$ & $x_4$ & $\geq$ & 0
+        \end{tabular}
+    \end{align*}
+    \begin{solution}
+        \\
+        Ký hiệu bài toán đã cho là $(\mathcal{P})$. Trước hết, ta dễ thấy $x = \begin{bmatrix} 0 & 1 & 1 & 1 \end{bmatrix}^T$ là nghiệm CNĐ của $(\mathcal{P})$. Giả sử $x$ là nghiệm tối ưu của $(\mathcal{P})$.
+        \\
+        Xét bài toán đối ngẫu $(\mathcal{D})$ của $(\mathcal{P})$:
+        \begin{align*}
+            \begin{tabular}{cccccccccc}
+                \text{min} & $3y_1$ & $+$ & $3y_2$ & $+$ & $7y_3$ & $+$ & $2y_4$ \\
+                \text{s.t.} & $2y_1$ & $+$ & $y_2$ & $+$ & $y_3$ & $+$ & $2y_4$ & $\geq$ & 4 \\
+                & $y_1$ & $+$ & $y_2$ & $+$ & $2y_3$ & & & $\geq$ & 2 \\
+                & $y_1$ & & & $+$ & $3y_3$ & $+$ & $y_4$ & $\geq$ & 2 \\
+                & $y_1$ & $+$ & $2y_2$ & $+$ & $y_3$ & $+$ & $y_4$ & $\geq$ & 4\\
+                & & & & $y_1,$ & $y_2,$ & $y_3,$ & $y_4$ & $\geq$ & 0
+            \end{tabular}
+        \end{align*}
+        Giả sử $y = \begin{bmatrix} y_1 & y_2 & y_3 & y_4 \end{bmatrix}^T$ là nghiệm tối ưu tương ứng của $(\mathcal{D})$.
+        \\
+        Thay giá trị của $x$ vào các điều kiện của $(\mathcal{P})$ ta có:
+        \begin{align*}
+            \begin{tabular}{ccccccccccc}
+                $2(0)$ & $+$ & $1(1)$ & $+$ & $1(1)$ & $+$ & $1(1)$ & $=$ & 3 & $:y_1$\\
+                $1(0)$ & $+$ & $1(1)$ & $+$ & $0(1)$ & $+$ & $2(1)$ & $=$ & 3 & $:y_2$\\
+                $1(0)$ & $+$ & $2(1)$ & $+$ & $3(1)$ & $+$ & $1(1)$ & $<$ & 7 & $:y_3$\\
+                $2(0)$ & $+$ & $0(1)$ & $+$ & $1(1)$ & $+$ & $1(1)$ & $=$ & 2 & $:y_4$
+            \end{tabular}
+        \end{align*}
+        Mặt khác, để ý rằng: $x_1 = 0$ và $x_i > 0, \forall i = \overline{2,4}$. 
+        \\
+        Do đó, theo định lý về độ lệch bù, đối với nghiệm $y$ tương ứng của bài toán đối ngẫu tương ứng $\mathcal{D}$ ta có: $y_3 = 0$, đồng thời các điều kiện 2, 3, 4 của $(\mathcal{D})$ phải xảy ra dấu bằng.
+        \\
+        Như vậy, nghiệm $y = \begin{bmatrix} y_1 & y_2 & y_3 & y_4 \end{bmatrix}^T$ của $(\mathcal{D})$ thỏa mãn hệ phương trình:
+        \begin{align*}
+            \begin{bmatrix}
+                1 & 1 & 2 & 0 \\
+                1 & 0 & 3 & 1 \\
+                1 & 2 & 1 & 1 \\
+                0 & 0 & 1 & 0
+            \end{bmatrix} \begin{pmatrix} y_1 \\ y_2 \\ y_3 \\ y_4 \end{pmatrix} = \begin{pmatrix} 2 \\ 2 \\ 4 \\ 0 \end{pmatrix}
+        \end{align*}
+        Ta giải hệ phương trình trên bằng phương pháp khử Gauss:
+        \begin{align*}
+            \begin{pmatrix}[cccc|c]
+                1 & 1 & 2 & 0 & 2 \\
+                1 & 0 & 3 & 1 & 2 \\
+                1 & 2 & 1 & 1 & 4 \\
+                0 & 0 & 1 & 0 & 0
+            \end{pmatrix}
+            \\
+            \\
+            \underrightarrow{H2 - H1, H3 - H1} \begin{pmatrix}[cccc|c]
+                1 & 1 & 2 & 0 & 2 \\
+                0 & -1 & 1 & 1 & 0 \\
+                0 & 1 & -1 & 1 & 2 \\
+                0 & 0 & 1 & 0 & 0
+            \end{pmatrix}
+            \\
+            \\
+            \underrightarrow{H3 + H2} \begin{pmatrix}[cccc|c]
+                1 & 1 & 2 & 0 & 2 \\
+                0 & -1 & 1 & 1 & 0 \\
+                0 & 0 & 0 & 2 & 2 \\
+                0 & 0 & 1 & 0 & 0
+            \end{pmatrix}
+            \\
+            \\
+            \underrightarrow{H4 \leftrightarrow H3} \begin{pmatrix}[cccc|c]
+                1 & 1 & 2 & 0 & 2 \\
+                0 & -1 & 1 & 1 & 0 \\
+                0 & 0 & 1 & 0 & 0 \\
+                0 & 0 & 0 & 2 & 2
+            \end{pmatrix}
+            \\
+            \\
+            \underrightarrow{H4/2} \begin{pmatrix}[cccc|c]
+                1 & 1 & 2 & 0 & 2 \\
+                0 & -1 & 1 & 1 & 0 \\
+                0 & 0 & 1 & 0 & 0 \\
+                0 & 0 & 0 & 1 & 1
+            \end{pmatrix}
+            \\
+            \\
+            \Leftrightarrow y = \begin{bmatrix} 1 & 1 & 0 & 1 \end{bmatrix}^T
+        \end{align*}
+        Ta cần kiểm tra xem $y = \begin{bmatrix} 1 & 1 & 0 & 1 \end{bmatrix}^T$ có là nghiệm CNĐ của $(\mathcal{D})$ hay không. Thật vậy, dễ thấy rằng $y \geq 0$, đồng thời từ cách xây dựng ta thấy nghiệm này thỏa mãn các điều kiện 2, 3, 4 của $(\mathcal{D})$.
+        \\
+        Ta thay giá trị của $y$ vào điều kiện 1 của $(\mathcal{D})$:
+        \begin{align*}
+            \begin{tabular}{ccccccccc}
+                $2(1)$ & $+$ & $1(1)$ & $+$ & $1(0)$ & $+$ & $2(1)$ & $>$ & 4
+            \end{tabular}
+        \end{align*}
+        Như vậy, $y$ là nghiệm CNĐ của $(\mathcal{D})$, và do đó theo định lý về độ lệch bù, giả sử của ta đúng, hay $x = \begin{bmatrix} 0 & 1 & 1 & 1 \end{bmatrix}^T$ là nghiệm tối ưu của $(\mathcal{P})$.
+        \\
+        Câu trả lời là khẳng định.
+    \end{solution}
+    \textbf{Bài tập 5.} Giải LP sau dùng thuật toán đơn hình đối ngẫu:
+    \begin{align*}
+        \begin{tabular}{cccccccc}
+            \text{max} & $2x_1$ & $+$ & $x_2$ & $+$ & $4x_3$\\
+            \text{s.t.} & $x_1$ & $+$ & $x_2$ & $-$ & $x_3$ & $\leq$ & 2 \\
+            & $-x_1$ & $+$ & $x_2$ & $-$ & $2x_3$ & $\geq$ & 1 \\
+            & $-2x_1$ & $-$ & $x_2$ & $-$ & $x_3$ & $=$ & -3 \\
+            & & & $x_1,$ & $x_2,$ & $x_3$ & $\geq$ & 0
+        \end{tabular}
+    \end{align*}
+\end{document}
