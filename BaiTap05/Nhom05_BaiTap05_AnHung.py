@@ -7,20 +7,51 @@
   
   Danh sách bài tập
   - bài 3.
-     4. ColorProblem(N: int, k: int)
+     4. Color(N: int, k: int)
         Hàm kiểm tra xem với k màu, có thể tô N số từ 1->N 
         bởi k màu sao cho ko có bộ 3 số 1<=a<b<c<=N sao cho a+b=c
         và a,b,c đều được tô cùng một màu.
-     5. findNForKColors(k: int)
-        Hàm tìm số N lớn nhất nhất sao cho với k màu, 
-        có thể tô N số từ 1->N bởi k màu sao cho
-        ko có bộ 3 số 1<=a<b<c<=N sao cho a+b=c
-        và a,b,c đều được tô cùng một màu.
+"""
+"""
+Restricted license - for non-production use only - expires 2024-10-28
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: Intel(R) Core(TM) i7-5600U CPU @ 2.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 32 rows, 16 columns and 88 nonzeros
+Model fingerprint: 0xf3dcdd6d
+Variable types: 0 continuous, 16 integer (16 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective -0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: -0
+No other solutions better than -0
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+x_0_1 = 1.0
+x_1_1 = 1.0
+x_2_0 = 1.0
+x_3_1 = 1.0
+x_4_0 = 1.0
+x_5_0 = 1.0
+x_6_0 = 1.0
+x_7_1 = 1.0
+Kết quả:
+[1, 1, 0, 1, 0, 0, 0, 1]
 """
 import gurobipy as gp
 from gurobipy import GRB
 import numpy as np
-class ColorProblem:
+class Color:
     def __init__(self, N, k):
         self.N = N
         self.k = k
@@ -73,21 +104,7 @@ class ColorProblem:
         self.model.optimize()
         self.getSolution()
     
-modelColor = ColorProblem(8, 2)
-print(modelColor.listOfThreeSum)
+modelColor = Color(8, 2)
 modelColor.solve()
+print('Kết quả: ')
 print(modelColor.solution)
-
-# Cho k màu, 
-# #tìm số N nhỏ nhất sao cho có thể tô màu theo cách trên cho N số từ 1->N.
-def findNforKColors(k):
-    n = k
-    while True:
-        modelColor = ColorProblem(n+1, k)
-        modelColor.solve()
-        #nếu có nghiệm feasible thì 
-        if modelColor.model.status == GRB.OPTIMAL:
-            n += 1
-        else:
-            return n
- 

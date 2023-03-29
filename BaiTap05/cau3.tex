@@ -1,0 +1,31 @@
+\textbf{Bài tập 3.}
+Xét dạng chuẩn tắc của  $(\mathcal{P})$:
+\begin{equation*}
+    \begin{array}{lr@{}c@{}r@{}l}
+        \text{max} &c^{T}x\\
+        \text{s.t.} & Ax{} & {}\leq{} & b\\
+        & -Ax{} & {}\leq{} & -b\\
+        & x{} & {}\geq{} & {}0
+    \end{array},
+    %gắn tag là P'
+\tag{$\mathcal{P}'$}
+\end{equation*}
+Bài toán đối ngẫu của  ($\mathcal{P}'$) là:
+\begin{equation*}
+    \begin{array}{lr@{}c@{}r@{}l}
+        \text{min} &b^{T}s - b^{T}u\\
+        \text{s.t.} & A^{T}s{} -A^{T}u{}& {}\geq{} & c^{T}\\
+        %s<=0, u<=0
+        & s{} & {}\geq{} & {}0\\
+        & u{} & {}\geq{} & {}0
+    \end{array},
+    \tag {$\mathcal{D}'$}
+\end{equation*}
+Đặt $y=s-u$, ta có bài toán tương đương với {$(\mathcal{D}')$} là:
+\begin{equation*}
+    \begin{array}
+        {lr@{}c@{}r@{}l}
+        \text{min} &b^{T}y\\
+        \text{s.t.} & A^{T}y{} & {}\geq{} & c^{T}\\
+    \end{array}
+\end{equation*}

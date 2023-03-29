@@ -1,6 +1,7 @@
 import unittest
 from BaiTap04.Nhom05_BaiTap04_AnHung import *
 import gurobipy as gp
+
 class TestFunction(unittest.TestCase):
     def testColorProblem(self,N=5,k=2):
         colorProblem = ColorProblem(N, k)
