@@ -98,7 +98,7 @@ class Color:
         self.setObjective()
         self.model.optimize()
         self.getSolution()
-modelColor = Color(69, 4)
+modelColor = Color(8, 2)
 modelColor.solve()
 print('Kết quả: ')
 print(modelColor.solution)
