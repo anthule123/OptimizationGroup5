@@ -64,7 +64,13 @@
                 f'(x) = \ln a \cdot a^x \Rightarrow f''(x) = (\ln a)^2 \cdot a^x > 0 \quad \forall x \in \R.
             \end{align*}
             Do đó, $f$ là hàm lồi.
-            \item[2.] 
+            \item[2.] Để ý rằng:
+            \begin{align*}
+                g(\lambda x_1 + (1 - \lambda)x_2) &= a^T(\lambda x_1 + (1 - \lambda)x_2) + b\\
+                &= \lambda(a^Tx_1 + b) + (1 - \lambda)(a^Tx_2 + b)\\
+                &= \lambda g(x_1) + (1 - \lambda)g(x_2), \quad \forall x_1, x_2 \in \R^n, \lambda \in [0, 1].
+            \end{align*}
+            Suy ra $g$ là hàm lồi.
             \item[3.] Theo BĐT Cauchy - Schwarz ta có:
             \begin{align*}
                 \lambda h(x_1) + (1 - \lambda)h(x_2) &= \bigl(\lambda h(x_1) + (1 - \lambda)h(x_2)\bigr) (\lambda + (1 - \lambda))\\
