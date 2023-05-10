@@ -15,7 +15,7 @@ x0 = np.array([1, 1])
 class GradientDescentFindMin:
     def __init__(self, f, gradient_f, x0, learning_rate=0.1, epsilon=1e-5, max_iterations=100):
         self.f = f
-        self.gradient_f = gradient_f
+        self.gradcient_f = gradient_f
         self.x0 = x0
         self.learning_rate = learning_rate
         self.epsilon = epsilon
