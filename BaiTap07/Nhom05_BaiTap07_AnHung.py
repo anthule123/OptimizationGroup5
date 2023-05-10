@@ -56,6 +56,7 @@ class GradientDescentWithBacktracking:
             if np.linalg.norm(currentGrad_f) <= self.epsilon:
                 break
         # print(currentStep)
+        print(self.f(x, y))
         return np.array([x, y])
 # Truong hop x_0 = A.
 GradientDescentModelA = GradientDescentWithBacktracking(f, getGrad_f, np.array([0, 0]), 1, 0.5, 0.5)
