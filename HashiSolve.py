@@ -8,6 +8,14 @@ class Point:
         self.xCoordinate = x
         self.yCoordinate = y
         return None
+class Determinant:
+    def __init__(self, row1:list, row2:list):
+        self.row1 = row1
+        self.row2 = row2
+        return None
+    def getDeterminant(self):
+        return self.row1[0] * self.row2[1] - self.row1[1] * self.row2[0]
+        
 class Segment:
     def __init__(self, point1:Point, point2:Point):
         self.point1 = point1
@@ -15,8 +23,24 @@ class Segment:
         return None
     def IsIntersect(self, another):
         # Return True if two segments intersect inside.
-        # Return False if two segments do not intersect.
-        pass
+        # Return False if two segments do not intersect inside.
+        FirstEquation = [self.point2.xCoordinate - self.point1.xCoordinate, another.point1.xCoordinate - another.point2.xCoordinate, another.point1.xCoordinate - self.point1.xCoordinate]
+        SecondEquation = [self.point2.yCoordinate - self.point1.yCoordinate, another.point1.yCoordinate - another.point2.yCoordinate, another.point1.yCoordinate - self.point1.yCoordinate]
+        determinant = Determinant([FirstEquation[0], FirstEquation[1]], [SecondEquation[0], SecondEquation[1]]).getDeterminant()
+        determinantX = Determinant([FirstEquation[2], FirstEquation[1]], [SecondEquation[2], SecondEquation[1]]).getDeterminant()
+        determinantY = Determinant([FirstEquation[0], FirstEquation[2]], [SecondEquation[0], SecondEquation[2]]).getDeterminant()
+        if determinant == 0:
+            if determinantX == 0 and determinantY == 0:
+                return True
+            else:
+                return False
+        else:
+            parameter1 = determinantX / determinant
+            parameter2 = determinantY / determinant
+            if parameter1 > 0 and parameter1 < 1 and parameter2 > 0 and parameter2 < 1:
+                return True
+            else:
+                return False
         
 class HashiPuzzle:
     def __init__(self, listPoints:list, goalOrderList:list):
