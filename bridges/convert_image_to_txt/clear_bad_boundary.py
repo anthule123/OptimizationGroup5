@@ -23,6 +23,18 @@ class ClearBadBoundary:
         for j in range(0, self.col):
             self.boundaries.add((0, j))
             self.boundaries.add((self.row-1, j))
+    def find_dominant_color(self):
+        count_black = 0
+        count_white = 0
+        for (i, j) in self.boundaries:
+                if self.image_np_array[i][j]<=100:
+                    count_black += 1
+                else:
+                    count_white += 1
+        if count_black > count_white:
+            self.dominant_color = 0
+        else:
+            self.dominant_color = 255
     def dfs(self, x, y):
         #print(self.image_np_array[x][y])
         if(self.image_np_array[x][y] == self.dominant_color):
@@ -40,6 +52,9 @@ class ClearBadBoundary:
     def clear(self):
         self.sharpen()
         self.get_boundary()
+        self.find_dominant_color()
+        self.visited = set()
+        self.gray = set()
         for pixel in self.boundaries:
             self.dfs(pixel[0], pixel[1])
         #lưu lại ảnh đã xử lý
