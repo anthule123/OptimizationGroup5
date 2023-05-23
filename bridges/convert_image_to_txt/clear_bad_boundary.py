@@ -55,7 +55,8 @@ class ClearBadBoundary:
     def clear(self):
         #self.sharpen()
         self.get_boundary()
-        self.find_dominant_color()
+        #self.find_dominant_color()
+        self.dominant_color=255
         self.visited = set()
         self.gray = set()
         for pixel in self.boundaries:
