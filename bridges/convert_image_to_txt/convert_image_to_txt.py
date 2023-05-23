@@ -33,7 +33,7 @@ class ConvertImageToTxt:
                 img = Image.open(f'crop/crop_{i}_{j}.jpg_clear.jpg').convert('L')
                 img_np = np.array(img)
                 cropper = CropWhiteCorner(img_np)
-                after_crop = cropper.nice_crop()
+                after_crop = cropper.crop()
                 #lưu ảnh
                 cv2.imwrite(f'crop/crop_{i}_{j}.jpg_clear.jpg', after_crop)
                 

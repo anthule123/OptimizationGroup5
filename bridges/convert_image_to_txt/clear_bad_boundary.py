@@ -37,11 +37,14 @@ class ClearBadBoundary:
             self.dominant_color = 255
     def dfs(self, x, y):
         #print(self.image_np_array[x][y])
-        if(self.image_np_array[x][y] == self.dominant_color):
+        if(self.image_np_array[x][y] >=10):
+            self.image_np_array[x,y] = self.dominant_color
             return None
         self.gray.add((x, y))
         for i in range(-1, 2):
             for j in range(-1, 2):
+                if i!=0 and j!=0:
+                    continue
                 if i!=0 or j!=0:
                     if x+i >= 0 and x+i < self.row and y+j >= 0 and y+j < self.col:
                         if ((x+i, y+j) not in self.visited and
@@ -50,7 +53,7 @@ class ClearBadBoundary:
         self.visited.add((x, y))
         self.image_np_array[x,y] = self.dominant_color
     def clear(self):
-        self.sharpen()
+        #self.sharpen()
         self.get_boundary()
         self.find_dominant_color()
         self.visited = set()
