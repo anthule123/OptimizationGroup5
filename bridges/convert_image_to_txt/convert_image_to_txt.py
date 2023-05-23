@@ -49,7 +49,8 @@ class ConvertImageToTxt:
                     read_txt += "."
                 else:
                     read_txt += str(int(self.data_array[i][j]))
-            read_txt += "\n"
+            if i != self.row - 1:
+                read_txt += "\n"
         #Lưu string vào file txt
         with open(self.txt_path, 'w') as f:
             f.write(read_txt)
