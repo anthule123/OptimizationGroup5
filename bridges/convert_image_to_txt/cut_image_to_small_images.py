@@ -14,11 +14,17 @@ class CutImageToSmallImages:
         self.col = col
         self.crop_folder_path = crop_folder_path
     def cut(self):
-        row_step = self.image_np_array.shape[0]//self.row
-        col_step = self.image_np_array.shape[1]//self.col 
+        rowSize = self.image_np_array.shape[0]
+        colSize = self.image_np_array.shape[1]
+        row_step = self.image_np_array.shape[0]/self.row
+        col_step = self.image_np_array.shape[1]/self.col 
+        int_row_step = int(row_step)
+        int_col_step = int(col_step)
         for i in range(self.row):
             for j in range(self.col):
-                crop= crop_image(self.image_np_array, i*row_step, j*col_step, row_step, col_step)
+                crop= crop_image(self.image_np_array, int(i/self.row*rowSize),
+                                 int(j/self.col*colSize), 
+                                 int_row_step, int_col_step)
                 cv2.imwrite(f'{self.crop_folder_path}/crop_{i}_{j}.jpg', crop)
         
         

@@ -10,21 +10,21 @@ class DetectDigit:
         self.data = []
         self.labels = [i for i in range(9)]
         for i in range(9):
-            img = Image.open(f'kmean/{i}.jpg').resize((28, 28))
+            img = Image.open(f'kmean/{i}.jpg').resize((40, 40))
             #làm mờ
             img = img.filter(ImageFilter.GaussianBlur(radius=1))
             img = img.convert('L')
             img = np.array(img)
-            img = img.reshape(784)
+            img = img.reshape(1600)
             #chuẩn hóa
             img = img / 255
             self.data.append(img)
     
     def predict(self, img_path):
-        img = Image.open(img_path).resize((28, 28))
+        img = Image.open(img_path).resize((40, 40))
         img =img.convert('L')
         img = np.array(img)
-        img = img.reshape(784)
+        img = img.reshape(1600)
         img = img / 255
         #tính khoảng cách
         distances = [ np.linalg.norm(img - self.data[i]) for i in range(9)]

@@ -3,7 +3,6 @@ import cv2
 import numpy as np
 from clear_bad_boundary import ClearBadBoundary
 from detect_digit import DetectDigit
-from recognize_digit import RecognizeDigit
 from cut_image_to_small_images import CutImageToSmallImages
 from crop_white_corner import CropWhiteCorner
 class ConvertImageToTxt:
@@ -15,7 +14,7 @@ class ConvertImageToTxt:
         self.data_array = np.zeros((self.row, self.col))
     
     def convert_to_numpy_array(self):
-        self.raw_image = Image.open(self.image_path)
+        self.raw_image = Image.open(self.image_path).resize((self.row*40, self.col*40))
         self.gray_image = self.raw_image.convert('L')
         self.gray_np = np.array(self.gray_image)
     
